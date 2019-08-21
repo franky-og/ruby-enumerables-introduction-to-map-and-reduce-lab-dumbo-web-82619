@@ -51,12 +51,11 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
+newvalue = false
 source_array.each do |index|
   newvalue = !!index
   if newvalue == true
     return newvalue
-  else return false
 end
 end
-
 end
