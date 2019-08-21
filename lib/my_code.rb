@@ -1,5 +1,6 @@
 # My Code here....
 def map_to_negativize(source_array)
   newarray = []
-  each.
+  source_array.each |index|
+    newarray.push(index * -1)
 end
