@@ -7,7 +7,7 @@ def map_to_negativize(source_array)
   return newarray
 end
 
-def map_to_no_change{source_array)
+def map_to_no_change(source_array)
   newarray = []
   source_array.each do |index|
     newarray.push(index)
