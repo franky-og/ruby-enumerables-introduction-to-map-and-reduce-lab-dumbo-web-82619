@@ -58,4 +58,5 @@ source_array.each do |index|
     return newvalue
 end
 end
+return newvalue
 end
