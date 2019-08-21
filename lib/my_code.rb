@@ -33,5 +33,5 @@ end
 
 def reduce_to_total(source_array, starting_point)
   newvalue = 0
-  for i in 1..5 do
+  for i in starting_point...5 do
     
