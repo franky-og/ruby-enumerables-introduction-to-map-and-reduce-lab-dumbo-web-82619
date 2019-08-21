@@ -22,3 +22,11 @@ def map_to_double(source_array)
   end
   return newarray
 end
+
+def map_to_square(source_array)
+  newarray = []
+  source_array.each do |index|
+    newarray.push(index**)
+  end
+  return newarray
+end
