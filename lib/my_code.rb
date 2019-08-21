@@ -36,10 +36,11 @@ def reduce_to_total(source_array, starting_point)
   for i in starting_point...source_array.length do
     newvalue = newvalue + source_array[i]
   end
-  return newarray
+  return newvalue
 end
 
 def reduce_to_all_true(source_array)
-  
+  source_array.each do |index|
+    
 end
     
