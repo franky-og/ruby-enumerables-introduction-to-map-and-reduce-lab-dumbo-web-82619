@@ -26,7 +26,7 @@ end
 def map_to_square(source_array)
   newarray = []
   source_array.each do |index|
-    newarray.push(index**)
+    newarray.push(index**2)
   end
   return newarray
 end
