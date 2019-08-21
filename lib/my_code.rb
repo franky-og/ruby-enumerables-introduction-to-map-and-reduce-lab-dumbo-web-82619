@@ -40,11 +40,11 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-  newvalue = 0
+  newvalue = true
   source_array.each do |index|
     newvalue = !!source_array.index
     if !!newvalue == false
-      break
+      return newvalue
     end
   end
   return newvalue
