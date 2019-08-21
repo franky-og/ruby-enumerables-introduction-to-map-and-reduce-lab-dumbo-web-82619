@@ -14,3 +14,11 @@ def map_to_no_change(source_array)
   end
   return newarray
 end
+
+def map_to_double(source_array)
+  newarray = []
+  source_array.each do |index|
+    newarray.push(index * 2)
+  end
+  return newarray
+end
