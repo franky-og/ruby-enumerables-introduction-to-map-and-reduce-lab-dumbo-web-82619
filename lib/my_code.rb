@@ -43,7 +43,7 @@ def reduce_to_all_true(source_array)
   newvalue = true
   source_array.each do |index|
     newvalue = !!source_array.index
-    if !newvalue == false
+    if newvalue == false
       return newvalue
     end
   end
