@@ -41,6 +41,7 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.each do |index|
-    
+    source_array.index?
+  end
 end
     
